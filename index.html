@@ -17,23 +17,29 @@
      <input type="email" required id="email" placeholder="type your email">
       <label for="number" id="number-label">Select Number</label>
      <input type="number" id="number" min="1" max="10" placeholder="number">
-      <select name="" id="dropdown">
+     <label for="dropdown">Select and Option:</label> 
+     <select name="" id="dropdown">
         <option value="option1">option-1</option>
         <option value="option2">option-2</option>
       </select>
-
-      <label for="radioOp1">Option 1</label>
-      <input type="radio" name="radio1" id="radioOp1" value="option 1">
-      <label for="radioOp2">Option 2</label>
-      <input type="radio" name="radio1" id="radioOp2" value="option 2">
-
-      <label for="checkbox1">Option 1</label>
+      <label for="radios">Radio Group</label>
+      <div id="radios">        
+        <label for="radioOp1">Option 1</label>
+        <input type="radio" name="radio1" id="radioOp1" value="option 1">
+        <label for="radioOp2">Option 2</label>
+        <input type="radio" name="radio1" id="radioOp2" value="option 2">
+      </div>
+      <label for="checks">Check Group</label>
+      <div id="checks">
+        <label for="checkbox1">Option 1</label>
       <input type="checkbox" value="Option 1" id="checkbox1" name="check1">
       <label for="checkbox2">Option 2</label>
       <input type="checkbox" value="Option 2" id="checkbox2" name="check1">
+      </div>
+      
 
-
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <label for="text-area">Comment:</label>
+      <textarea name="" id="text-area" cols="30" rows="10"></textarea>
 
       <input type="submit" id="submit">
    </form>
